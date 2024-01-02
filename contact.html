@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>New Jersey</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header-container">
+        <img src="images/njoutline.png" alt="logo" class="logo">
+            <div class="header-text">
+                <h1>New Jersey</h1>
+                <h2>Welcome to the Garden State!</h2>
+            </div>
+    </header>
+    <!-- NAV BAR -->
+    <nav>
+        <!-- UNORDERED LIST -->
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="trenton.html">Trenton</a></li>
+            <li> <a href="capemay.html">Cape May</a></li>
+            <li> <a href="hoboken.html">Hoboken</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- SECTION --> 
+    <section class="main-container">
+        <h3>Contact Us!</h3>
+        <img src="images/nj.jpg" alt="njbeach" class="mainphoto">
+        <!-- CONTACT FORM -->
+        <form id="contactform">
+            <!-- FIRST NAME -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+            <!-- LAST NAME -->
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+            <!-- EMAIL -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address" required>
+            <!-- CONFIRM EMAIL -->
+            <label for="confirmemail">Confirm Email:</label>
+            <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm email address" required>
+            <!-- QUESTION  -->
+            <label for="question">Ask a question:</label>
+            <textarea id="question" name="question" placeholder="Type your question here"></textarea>
+            <!-- SUBMIT BUTTON -->
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+    <!-- ASIDE SIDEBAR -->
+    <aside class="social">
+        <h3>Follow On Social Media!</h3>
+        <ul>
+            <li><a href="facebook.com/newjersey">Facebook</a></li>
+            <li><a href="x.com/newjersey">Twitter</a></li>
+            <li><a href="instagram.com/newjersey">Instagram</a></li>
+        </ul>
+        
+    </aside>
+    <!-- FOOTER -->
+    <footer>
+        <!-- EXTERNAL LINK -->
+        <a href="https://www.visitnj.org/" target="_blank">Explore More about New Jersey!</a>
+        <p>© 2023 New Jersey Gov D277. All rights reserved.</p>
+        <a href="contact.html">Contact Us</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

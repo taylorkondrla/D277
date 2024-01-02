@@ -1,0 +1,236 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+     scroll-behavior: smooth;;
+}
+
+body {
+	font-family: 'Sora', sans-serif;
+    background-color: #FAF9F9;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #89B0AE;
+    color: white;
+    margin: 10px;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.header-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logo {
+    position: absolute;
+    height:200px;
+}
+
+nav {
+    background-color: #555B6E;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #BEE3DB;  
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: #FFD6BA;
+    color:  #555B6E;
+}
+
+.main-container {
+    float: left;
+    width: 70%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFD6BA;
+    border-radius: 10px;
+    text-align: center
+}
+
+.main-container h3{
+    color:#555B6E;
+}
+
+.main-container p {
+    padding: 20px;
+    color: #555B6E;
+    font-size: 1.2rem;
+}
+
+.mainphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.mainphoto:hover {
+    opacity: 80%;
+}
+
+.topfoods {
+    margin: auto;
+    color: #555B6E;
+    background-color: #BEE3DB;
+    border-radius: 10px;
+    width: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#table {
+    position: relative;
+    background-color: #FAF9F9;
+    color: #555B6E;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 0px auto;
+    padding: 20px;
+}
+th, td {
+    padding: 10px;
+}
+.sidenav {
+    background-color: #BEE3DB;
+    float: right;
+    width: 26%;
+    margin: 10px;
+    padding: 20px;
+    color: #555B6E;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sidenav p {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+footer {
+    background-color: #555B6E;
+    color: #FAF9F9;
+    clear: both; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FAF9F9;
+}
+
+footer a:hover {
+    background-color: #FFD6BA;
+    color:#555B6E;
+    padding: 10px;
+}
+
+#contactform {
+    margin: 20px;
+    font-size: 1.2rem;
+    color: #555B6E;
+}
+
+#submit {
+    font-size: 1.2rem;
+    background-color: #BEE3DB;
+    color: #555B6E;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+input {
+
+    background-color: #FAF9F9;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+input::placeholder {
+    color: #555B6E;
+   
+}
+
+#question {
+    border: none;
+    background-color: #FAF9F9;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.social {   
+    background-color: #BEE3DB;
+    float: right;
+    width: 26%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.social h3 {
+    color:#555B6E;
+}
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    padding: 10px;
+}
+.social ul li a {
+    text-decoration: none;
+    color: #555B6E;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-container {
+        padding: 1rem;
+    }
+
+    .main-container,
+    .topfoods,
+    #table,
+    .sidenav,
+    footer,
+    #contactform,
+    .social {
+        width: 100%;
+    }
+
+    .logo {
+        height: 150px;
+    }
+
+    .mainphoto {
+        width: 100%;
+    }
+}
